@@ -1,0 +1,89 @@
+html{
+  display: grid;
+  justify-content: center;
+}
+
+body{
+  background-image: url(photos/fun.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+header{
+  text-align: center;
+  font-family: 'Playpen Sans', cursive;
+}
+
+img{
+  width: 21em;
+  margin-top: 2em;
+  cursor: pointer;
+}
+
+#oneAvena, #oneBen, #oneEli, #oneDexter, #oneMaggie, #oneMillie{
+  display: none;
+}
+
+h1{
+  font-size: 2.5em;
+  color: #d6a24a;
+}
+
+p{
+  color: #dc778d;
+}
+
+#info {
+  font-size: .5em;
+}
+
+#main{
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  text-align: center;
+  justify-items: center;
+}
+
+#oneMaggie, #twoMaggie, #oneEli, #twoEli, #oneBen, #twoBen, #oneMillie, #twoMillie{
+  margin-bottom: 1em;
+}
+
+button{
+  width: 50%;
+  font-size: 1.2em;
+  display: grid;
+  background-color: #f6eeee;
+  align-items: center;
+  cursor: pointer;
+  border-radius: 12px;
+  border: 2px solid #dc778d;
+  font-family: 'Playpen Sans', cursive;
+}
+
+button:hover{
+  transform: scale(1.2);
+}
+
+#oneMaggie, #twoMaggie{
+  border: double .5em #d2a860;
+}
+
+#oneMillie, #twoMillie{
+  border: dotted .5em #d2a860;
+}
+#oneBen, #twoBen{
+  border: double .5em #d2a860;
+}
+#oneEli, #twoEli{
+  border: dashed .5em #d2a860;
+}
+#oneDexter, #twoDexter{
+  border: double .5em #d2a860;
+}
+#oneAvena, #twoAvena{
+  border: dashed .5em #d2a860;
+}
+
+#eliButton, #benButton{
+  margin-bottom: 3em;
+}
